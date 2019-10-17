@@ -10,16 +10,17 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;  
+}
+
 .all-content {
     font-family: ComicSansMS;
     color: #272f2f;
-    max-width: 1600px;
+    max-width: 1366px;
     overflow-x: hidden;
     margin: 0 auto;
 }
-/* body {
-    width: 100%;
-} */
 
 h2 {
     font-size: 16px;
@@ -71,7 +72,6 @@ h2 {
     height: 43px;
     font-family: 'ComicSansMS';
     font-size: 14px;
-    
     cursor: pointer;  
 }
 
@@ -89,6 +89,7 @@ h2 {
 .nav-menu {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: flex-end;
     padding-top: 20px;
     padding-right: 250px;
@@ -111,8 +112,7 @@ li a:hover {
 }
 
 .div-nav-1{
-    width: 30%;
-    /* height: 800px; */
+    width: 410px; 
     background-image: url(../images/bg_png/right.png);
     background-repeat: no-repeat;
     background-position-y: 100%;
@@ -120,17 +120,14 @@ li a:hover {
 }
 
 .div-nav-2 {
-    width: 70%;
+    width: 956px;
     background-image: url(../images/bg_png/1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 1000px;
 }
 
-.img-boy img {
-    /* width: 60%; */
-    /* padding-top: 10%;
-    padding-left: 25%; */
+.img-boy img { 
     width: 500px;
     padding-top: 100px;
     padding-left: 205px;
@@ -139,35 +136,226 @@ li a:hover {
 #requirement {
     padding-top: 25px;
     text-align: center;
-
 }
 
 .container {
 
 }
 
+.all-blocks {
+    margin: 0 240px;
+}
+
 .block-row {
     display: flex;
     flex-direction: row;
-    margin-top: 55px;
+    margin-top: 30px;
 }
 
 .block {
-    width: 220px;
+    width: 210px;
+    height: 210px;
     margin: 0 6px;
     background-color: #fafafa;
     border-radius: 5px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.07), -2.1px 2.1px 11.9px 0.1px rgba(0, 0, 0, 0.15);
+}
+
+.block img {
+    width: 70%;
+    margin: 0px 33px;
+
 }
 
 .block-text {
-    font-size: 12px;
+    font-size: 11px;
     padding: 5px;
 }
 
+.help-block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 640px;
+    background-color: #1ea992;
+}
+
+.help-image {
+    width: 683px;
+    height: 640px;
+    background-size: contain;
+    background-image: url(../images/bg_png/2.png); 
+    background-repeat: no-repeat;
+}
+
+#help {
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+.help-rules {
+    width: 683px;
+}
+
+.all-rules {
+    padding-left: 30px;
+}
+
+.rule {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.numbers{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rule-text {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 220px 0 15px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.text-tab {
+    padding-left: 60px;
+}
+
+.offer-main-block {
+    background-image: url(../images/bg_png/left.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 30%;
+    background-size: 170px;
+}
+
+#offer {
+    padding: 50px 0;
+}
+
+.all-offer-blocks {
+    margin: 0 210px;
+}
+
+.offer-block {
+    width:250px;
+    height: 250px;
+    margin: 0px 30px;
+}
+
+.offer-text {
+    width: 245px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 14px;
+    text-align: center;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+.offer-img {
+    width: 150px;
+    height: 150px;
+    margin: 0px 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.offer-block-1 {
+    background-image: url(../images/offers/1.png); 
+}
+
+.offer-block-1:hover {
+    background-image: url(../images/offers/hover1.png); 
+}
+
+.offer-block-2 {
+    background-image: url(../images/offers/2.png); 
+}
+
+.offer-block-2:hover {
+    background-image: url(../images/offers/hover2.png); 
+}
+
+.offer-block-3 {
+    background-image: url(../images/offers/3.png); 
+}
+
+.offer-block-3:hover {
+    background-image: url(../images/offers/hover3.png); 
+}
+
+.offer-block-4 {
+    background-image: url(../images/offers/4.png); 
+}
+
+.offer-block-4:hover {
+    background-image: url(../images/offers/hover4.png); 
+}
+
+.offer-block-5 {
+    background-image: url(../images/offers/5.png); 
+}
+
+.offer-block-5:hover {
+    background-image: url(../images/offers/hover5.png); 
+}
+
+.offer-block-6 {
+    background-image: url(../images/offers/6.png); 
+}
+
+.offer-block-6:hover {
+    background-image: url(../images/offers/hover6.png); 
+}
+
+.text-white {
+    color: white;
+}
+
+.form-2 {
+    padding-top: 15px;
+
+}
+
+.form-2 input {
+    background: none;
+}
+
+#contacts {
+    padding-top: 120px;
+    color: white;
+}
+
+.contact {
+    padding-right: 250px;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
 .footer {
-    width: 100%;
+    width: 1366px;
+    background-size: cover;
     background-image: url(../images/bg_png/3.png); 
     background-repeat: no-repeat;
-    height: 1533px;
+    height: 1000px;
+}
+
+.span {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
