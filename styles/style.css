@@ -136,13 +136,11 @@ li a:hover {
 }
 
 #requirement {
-    padding-top: 25px;
     text-align: center;
-
 }
 
 .container {
-margin-top: 1%;
+
 }
 
 .all-blocks {
@@ -201,6 +199,7 @@ margin-top: 1%;
 .help-block {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-top: 50px;
     height: 640px;
     background-color: #1ea992;
@@ -215,8 +214,7 @@ margin-top: 1%;
 }
 
 #help {
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 35px;
     color: white;
     text-align: left;
 }
@@ -243,11 +241,20 @@ margin-top: 1%;
 
 .rule-text {
     color: white;
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 10px 220px 0 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: bold;
     line-height: 1.5;
+    text-transform: uppercase;
+    padding: 10px 270px 0 25px;
+
+}
+
+.span {
+    text-transform: none;
+}
+
+.span-2 {
+    font-weight: normal;
 }
 
 .text-tab {
@@ -277,9 +284,9 @@ margin-top: 1%;
 }
 
 .offer-text {
-    width: 245px;
+    width: 240px;
     text-transform: uppercase;
-    padding: 15px 0;
+    padding: 10px;
     font-size: 14px;
     text-align: center;
     font-style: inherit;
@@ -294,12 +301,19 @@ margin-top: 1%;
     background-repeat: no-repeat;
 }
 
+.offer-transition {
+    background-size: 75%;
+    background-position: center;
+    transition: 0.6s;
+}
+
 .offer-block-1 {
     background-image: url(../images/offers/1.png); 
 }
 
 .offer-block-1:hover {
     background-image: url(../images/offers/hover1.png); 
+    background-size: 95%;
 }
 
 .offer-block-2 {
@@ -308,14 +322,17 @@ margin-top: 1%;
 
 .offer-block-2:hover {
     background-image: url(../images/offers/hover2.png); 
+    background-size: 95%;
 }
 
 .offer-block-3 {
     background-image: url(../images/offers/3.png); 
+
 }
 
 .offer-block-3:hover {
     background-image: url(../images/offers/hover3.png); 
+    background-size: 95%;
 }
 
 .offer-block-4 {
@@ -324,6 +341,7 @@ margin-top: 1%;
 
 .offer-block-4:hover {
     background-image: url(../images/offers/hover4.png); 
+    background-size: 95%;
 }
 
 .offer-block-5 {
@@ -332,6 +350,7 @@ margin-top: 1%;
 
 .offer-block-5:hover {
     background-image: url(../images/offers/hover5.png); 
+    background-size: 95%;
 }
 
 .offer-block-6 {
@@ -340,6 +359,7 @@ margin-top: 1%;
 
 .offer-block-6:hover {
     background-image: url(../images/offers/hover6.png); 
+    background-size: 95%;
 }
 
 .text-white {
@@ -372,16 +392,45 @@ margin-top: 1%;
     padding-bottom: 70px;
 }
 
+.contacts-block .form {
+    
+    padding-left: 22%;
+}
+
 .footer {
-    width: 1366px;
+    /* width: 1366px; */
     background-size: cover;
     background-image: url(../images/bg_png/3.png); 
     background-repeat: no-repeat;
     height: 1000px;
 }
 
-.span {
+.span-3 {
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.snetworks {
+    display: flex;
+    flex-direction: row;
+}
+
+.sotial_network {
+    width:  50px;
+    height: 50px;
+    margin: 0px 30px;
+    background-color: chartreuse;
+}
+
+.network-1 {
+
+}
+
+.network-2 {
+
+}
+
+.network-3 {
+
 }
