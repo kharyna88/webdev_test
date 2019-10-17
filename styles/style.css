@@ -17,13 +17,14 @@ html {
 .all-content {
     font-family: ComicSansMS;
     color: #272f2f;
-    max-width: 1366px;
+    max-width: 1900px;
     overflow-x: hidden;
+    overflow-y: hidden;
     margin: 0 auto;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -34,8 +35,8 @@ h2 {
 .form {
     display: flex;
     flex-direction: column;
-    padding-top: 250px;
-    padding-left: 250px;
+    padding-top: 61%;
+    padding-left: 65%;
     position: relative;
 }
 
@@ -91,12 +92,12 @@ h2 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    padding-top: 20px;
-    padding-right: 250px;
+    padding-top: 2%;
+    padding-right: 26%;
 }
 
 .nav-menu li {
-    padding-left: 25px;
+    padding-left: 4%;
     list-style-type: none;
     cursor: pointer;
 }
@@ -112,7 +113,7 @@ li a:hover {
 }
 
 .div-nav-1{
-    width: 410px; 
+    width: 30%; 
     background-image: url(../images/bg_png/right.png);
     background-repeat: no-repeat;
     background-position-y: 100%;
@@ -120,7 +121,7 @@ li a:hover {
 }
 
 .div-nav-2 {
-    width: 956px;
+    width: 70%;
     background-image: url(../images/bg_png/1.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -129,17 +130,19 @@ li a:hover {
 
 .img-boy img { 
     width: 500px;
-    padding-top: 100px;
-    padding-left: 205px;
+    padding-top: 12%;
+    margin-left: 21%;
+    filter: drop-shadow(-11px 8px 6px rgb(110, 109, 109));
 }
 
 #requirement {
     padding-top: 25px;
     text-align: center;
+
 }
 
 .container {
-
+margin-top: 1%;
 }
 
 .all-blocks {
@@ -149,12 +152,13 @@ li a:hover {
 .block-row {
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
+    justify-content: space-between;
+    margin-top: 5%;
 }
 
 .block {
-    width: 210px;
-    height: 210px;
+    width: 205px;
+    height: 205px;
     margin: 0 6px;
     background-color: #fafafa;
     border-radius: 5px;
@@ -162,14 +166,36 @@ li a:hover {
 }
 
 .block img {
-    width: 70%;
-    margin: 0px 33px;
+    width: 65%;
+    margin: 15px 36px;
+}
 
+.block-image{
+    height: 116px;
+}
+
+.block-image-2{
+    height: 137px;
+}
+
+.block-image-3{
+    height: 100px;
+}
+
+.block-image-2 img,
+.block-image-3 img {
+    width: 77%;
+    margin: 27px 24px;
 }
 
 .block-text {
-    font-size: 11px;
-    padding: 5px;
+    font-size: 10px;
+    padding: 1px 10px 4px 12px;
+    font-weight: bold;
+}
+
+.block-text-2 {
+    padding: 23px 3px 4px 5px;
 }
 
 .help-block {
