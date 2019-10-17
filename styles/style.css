@@ -32,6 +32,10 @@ h2 {
     height: 750px;
 }
 
+nav {
+    width: 50%;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -90,7 +94,6 @@ h2 {
 .nav-menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: flex-end;
     padding-top: 2%;
     padding-right: 26%;
