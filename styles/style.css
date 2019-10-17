@@ -32,10 +32,6 @@ h2 {
     height: 750px;
 }
 
-nav {
-    width: 50%;
-}
-
 .form {
     display: flex;
     flex-direction: column;
